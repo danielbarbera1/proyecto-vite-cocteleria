@@ -2,7 +2,7 @@ import card from "./card"
 
 
 const section = () => {
-    return`    <section class="bg-gray-100 py-12" >
+    return`    <section class="bg-gray-100 py-auto" >
         <div class="container mx-auto px-4" >
             <div class="text-center mb-10">
                 <h2 class="text-3xl font-bold text-gray-800">TIPO DE COCTELES</h2>
