@@ -9,7 +9,7 @@ const navbar = () => {
                         <input 
                             type="text" 
                             id="search-input" 
-                            placeholder="Buscar cócteles..." 
+                            placeholder="Buscar Cocteles..." 
                             class="w-full py-2 px-4 rounded-l text-white focus:ring-2 focus:ring-white"
                         >
                         <button id="search-button" class="bg-blue-700 hover:bg-blue-600 py-1 px-3 rounded-2xl">
