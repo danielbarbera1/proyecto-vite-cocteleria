@@ -22,24 +22,18 @@ const categorias = async ()=> {
 
 
 const section = (drinks) => {
-    return `    <section class="bg-gray-100 py-auto" >
-        <div class="container mx-auto px-4" >
-            <div class="text-center  p-10 ">
+    return `
+    <section class="bg-gray-100 py-auto">
+        <div class="container mx-auto px-4">
+            <div class="text-center p-10">
                 <h2 class="text-3xl font-bold text-gray-800">TIPO DE COCTELES</h2>
-                <p class="mt-2 text-lg text-gray-600">Descurbre Todo Tipo De Sabores.</p>
+                <p class="mt-2 text-lg text-gray-600">Descubre Todo Tipo De Sabores.</p>
             </div>
-            
-            <div class="mb-12">
-                <div class="flex flex-wrap justify-center gap-3">
-                    <div id="renderPastilla" ></div>
-                </div>
+            <div>
+                <div id="renderPastilla" class="flex space-x-6 overflow-x-auto scrollbar-hide snap-x snap-mandatory pb-4"></div>
             </div>
-            
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-               ${drinks.map(drink => card(drink)).join('')
-
-
-        }  
+               ${drinks.map(drink => card(drink)).join('')}
             </div>
         </div>
     </section>`
