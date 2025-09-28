@@ -30,7 +30,7 @@ const section = (drinks) => {
                 <p class="mt-2 text-lg text-gray-600">Descubre Todo Tipo De Sabores.</p>
             </div>
             <div>
-                <div id="renderPastilla" class="flex space-x-6 overflow-x-auto scrollbar-hide snap-x snap-mandatory pb-4"></div>
+                <div id="renderPastilla" class="flex space-x-6 overflow-x-auto scrollbar-hide snap-x snap-mandatory pb-5"></div>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                ${drinks.map(drink => card(drink)).join('')}
